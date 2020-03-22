@@ -1,0 +1,15 @@
+{
+    "prod": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-forcesocialdistance-prod-132115-authRole",
+            "UnauthRoleArn": "arn:aws:iam::999188799999:role/amplify-forcesocialdistance-prod-132115-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::999188799999:role/amplify-forcesocialdistance-prod-132115-authRole",
+            "Region": "eu-central-1",
+            "DeploymentBucketName": "amplify-forcesocialdistance-prod-132115-deployment",
+            "UnauthRoleName": "amplify-forcesocialdistance-prod-132115-unauthRole",
+            "StackName": "amplify-forcesocialdistance-prod-132115",
+            "StackId": "arn:aws:cloudformation:eu-central-1:999188799999:stack/amplify-forcesocialdistance-prod-132115/a0d053b0-6c37-11ea-a372-02012ecd1887",
+            "AmplifyAppId": "d13jmd1887s6g"
+        }
+    }
+}

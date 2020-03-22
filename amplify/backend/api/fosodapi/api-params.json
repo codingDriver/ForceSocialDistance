@@ -1,0 +1,34 @@
+{
+    "paths": [
+        {
+            "name": "/api",
+            "lambdaFunction": "fosodTriggerc25e5ebb",
+            "privacy": {
+                "open": true
+            }
+        }
+    ],
+    "resourceName": "fosodapi",
+    "apiName": "fosodapi",
+    "functionArns": [
+        {
+            "lambdaFunction": "fosodTriggerc25e5ebb"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-forcesocialdistance-prod-132115-authRole",
+        "unAuthRoleName": "amplify-forcesocialdistance-prod-132115-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "fosodTriggerc25e5ebb",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}
