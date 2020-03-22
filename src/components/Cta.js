@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Amplify, {API} from 'aws-amplify';
+import Amplify from 'aws-amplify';
 import awsconfig from '../aws-exports';
 
 Amplify.configure(awsconfig);
@@ -10,13 +10,7 @@ const Button = props => {
     const _isValid = () => link && label;
 
     const _handleOnClick = () => {
-        API.post("fosodapi", "/api", {
-            headers: {
-                fosodHeader: "seeecrettoken"
-            }
-        }).catch(error => {
-            console.log(error.response)
-        });
+        props.onClickHandler();
     };
 
 
